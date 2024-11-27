@@ -34,7 +34,7 @@ function guessNumber() {
   tries++;
   if (randomNumber == inputValue) {
     addLiToAnswersList(
-      `${inputValue} is the correct number! You did it in ${tries} tries, YIPPEE!.`
+      `${inputValue} is the correct number! You did it in ${tries} tries, YIPPEE!`
     );
 
     const firstItem = document.querySelector("#previousAnswers li");
